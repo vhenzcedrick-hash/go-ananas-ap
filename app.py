@@ -1,5 +1,5 @@
 """
-Go Ananas! - AI Plant Doctor
+Go Ananas! - Plant Doctor
 Interactive Streamlit Web Dashboard for Pineapple Disease Diagnostics
 """
 
@@ -14,7 +14,7 @@ import numpy as np
 # 1. Page Configuration & Styling
 # -------------------------------------------------------------------------
 st.set_page_config(
-    page_title="Go Ananas! - AI Plant Doctor",
+    page_title="Go Ananas! - Plant Doctor",
     page_icon="🍍",
     layout="centered",
     initial_sidebar_state="expanded"
@@ -73,7 +73,7 @@ class_names = load_class_names()
 with st.sidebar:
     st.image("https://img.icons8.com/color/96/pineapple.png", width=80)
     st.title("Go Ananas!")
-    st.markdown("### AI Plant Doctor")
+    st.markdown("### Plant Doctor")
     st.markdown("Automated crop diagnostics and pattern recognition system for *Ananas comosus*.")
     
     st.markdown("---")
@@ -96,7 +96,7 @@ else:
     # File Uploader
     uploaded_file = st.file_uploader(
         "Upload a pineapple plant or fruit image...", 
-        type=["jpg", "jpeg", "png", "webp"]
+        type=["Upload Pineapple image here!"]
     )
 
     if uploaded_file is not None:
