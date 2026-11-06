@@ -87,7 +87,7 @@ with st.sidebar:
 # -------------------------------------------------------------------------
 # 4. Main Interface
 # -------------------------------------------------------------------------
-st.markdown('<p class="main-header">🍍 Go Ananas! - AI Plant Doctor</p>', unsafe_allow_html=True)
+st.markdown('<p class="main-header">🍍 Go Ananas! - Plant Doctor</p>', unsafe_allow_html=True)
 st.markdown('<p class="sub-header">Real-time agricultural pattern recognition for farmers and agricultural experts.</p>', unsafe_allow_html=True)
 
 if model is None:
